@@ -16,7 +16,7 @@ def main():
     a = float(input("Enter first number: "))
     b = float(input("Enter second number: "))
     operation = input("Enter operation (+, -, *, /): ")
-    print("Result:", calculate(a, b, operation))
+    print("Answer is:", calculate(a, b, operation))
 
 
 if __name__ == "__main__":
